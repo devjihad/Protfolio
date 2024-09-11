@@ -6,7 +6,7 @@
 .first{
     height: 800px;
     width:1396px;
-    background-image: url('/Image/hero-cover.3.jpg');
+    background-image: url('../Image/hero-cover.3.jpg');
     background-repeat: no-repeat;
     color: white;
    
