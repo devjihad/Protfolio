@@ -8,7 +8,7 @@ import codeDuniya from "../assets/codeDuniya.png"
 
 const Project = () => {
     return (
-        <div className='pb-10'>
+        <div className='pb-10' id='project'>
             <h2 className=' text-4xl bg-linear-to-r/decreasing from-zinc-500 to-blue-300 bg-clip-text text-transparent text-center font-semibold mt-10 my-10'>My latest work</h2>
             
           <div className='grid grid-cols-3 gap-8'>

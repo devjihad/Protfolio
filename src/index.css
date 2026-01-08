@@ -6,6 +6,9 @@
 @import "tailwindcss";
 
 
-#head{
+.head{
      font-family: "Playfair Display", serif;
+}
+@theme{
+     --color-back:'bg-linear-to-r/decreasing from-zinc-500 to-blue-300'
 }

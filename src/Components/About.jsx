@@ -2,7 +2,7 @@ import React from 'react';
 import me from '../assets/me.png'
 const About = () => {
     return (
-        <div>
+        <div id='about'>
             <h2 className=' text-4xl bg-linear-to-r/decreasing from-zinc-500 to-blue-300 bg-clip-text text-transparent text-center font-semibold mt-10 my-7'>About Me</h2>
             <div className='grid grid-cols-3 gap-8 justify-between '>
                 <div className='col-span-1'>
