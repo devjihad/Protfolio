@@ -13,7 +13,7 @@
      --color-back:'bg-linear-to-r/decreasing from-zinc-500 to-blue-300'
 }
 
-@media (max-width:768px) {
+@media (max-width:767px) {
      .open{
           display: block;
           position: fixed;
