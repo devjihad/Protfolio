@@ -12,11 +12,11 @@ const App = () => {
     <div className='bg-zinc-900 text-white font-serif'>
       <Container>
         <Navbar></Navbar>
-        {/* <Hero></Hero>
+        <Hero></Hero>
         <About></About>
         <Project></Project>
         <Contact></Contact>
-        <Footer></Footer> */}
+        <Footer></Footer>
       </Container>
     </div>
   );
