@@ -12,3 +12,32 @@
 @theme{
      --color-back:'bg-linear-to-r/decreasing from-zinc-500 to-blue-300'
 }
+
+@media (max-width:768px) {
+     .open{
+          display: block;
+          position: fixed;
+          right: 30px;
+     }
+     .close{
+          display: block;
+          position: relative;
+          top:30px;
+          left: 100px;
+          width: 30px;
+     }
+     .unorder{
+          position: fixed;
+          flex-direction: column;
+          align-items: center;
+          
+          top: 0;
+          gap: 30px;
+          /* background-color: #06050600; */
+          width: 250px;
+          height: 100%;
+          z-index: 2;
+          transition: right 0.5s;
+          right : -350px
+     }
+}
