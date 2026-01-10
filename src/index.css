@@ -16,8 +16,11 @@
 @media (max-width:767px) {
      .open{
           display: block;
-          position: fixed;
-          right: 30px;
+          position: absolute;
+          right: 10px;
+          top: -15px;
+          height: 35px;
+          width: 35px;
      }
      .close{
           display: block;

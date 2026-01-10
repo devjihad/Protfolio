@@ -25,7 +25,9 @@ const Navbar = () => {
 
             <h3 className=' text-4xl bg-linear-to-r/decreasing from-zinc-500 to-blue-300 bg-clip-text text-transparent font-semibold head '>Jihad</h3>
 
-          <GiHamburgerMenu className='open md:hidden' onClick={open}/>
+          <div className='relative md:hidden w-full'>
+            <GiHamburgerMenu className='open md:hidden' onClick={open}/>
+          </div>
 
            
                  <ul className=' bg-zinc-900 flex   items-center gap-6 list-none text-[20px] unorder  ' ref={menuref}>
