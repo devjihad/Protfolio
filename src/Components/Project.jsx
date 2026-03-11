@@ -4,6 +4,7 @@ import tomato from "../assets/tomato.png"
 import relive from "../assets/relive.png"
 import food from "../assets/food.png"
 import anzo from "../assets/anzo.png"
+import reeni from '../assets/reeni.png'
 import codeDuniya from "../assets/codeDuniya.png"
 
 const Project = () => {
@@ -30,7 +31,7 @@ const Project = () => {
             </div>
 
             <div className=' bg-linear-to-r/decreasing from-zinc-500 to-blue-300  px-5 py-2 rounded-lg font-medium transition duration-300 hover:scale-110  cursor-pointer rounded-lg'>
-                <a href="https://anzo-studio-indol.vercel.app/"><img src={anzo} alt="" className='rounded-lg h-[200px] w-[350px]'/></a>
+                <a href="https://reeni-creative-protfolio.vercel.app/"><img src={reeni} alt="" className='rounded-lg h-[200px] w-[350px]'/></a>
             </div>
 
             <div className=' bg-linear-to-r/decreasing from-zinc-500 to-blue-300  px-5 py-2 rounded-lg font-medium transition duration-300 hover:scale-110  cursor-pointer rounded-lg'>
