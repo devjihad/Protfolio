@@ -12,7 +12,8 @@ const Hero = () => {
 
                     <AnchorLink offset={50} href='#contact'><button className='bg-linear-to-r/decreasing from-zinc-500 to-blue-300   px-5 py-2 rounded-lg font-medium transition duration-300 hover:scale-110 mr-6 cursor-pointer'>Connect with me</button></AnchorLink>
                     
-                    <button className='border-2   px-5 py-2 rounded-lg font-medium transition duration-300 hover:scale-110 cursor-pointer '>My resume</button>
+                   
+                    <a href="../../public/resume.pdf" target='blank' className='border-2   px-5 py-2 rounded-lg font-medium transition duration-300 hover:scale-110 cursor-pointer '> My resume</a>
                 </div>
             </div>
 
